@@ -1,1 +1,106 @@
 @import 'variables';
+
+html {
+  background-color: $color_grey_dark;
+}
+
+/* Main Navbar
+=================================================================== */
+
+.bg-dark {
+  background-color: $color_grey_dark !important;
+  box-shadow: $box_shadow_light;
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+@media(max-width: 992px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+/* Secondary Navbar
+=================================================================== */
+
+.seconday-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: $navbar_height;
+  color: $color_white;
+  background-color: $color_grey_dark;
+  box-shadow: $box_shadow_light;
+  a {
+    font-weight: bold;
+    color: $color_white;
+  }
+}
+
+/* Hero
+=================================================================== */
+
+.hero {
+  height: 300px;
+  width: 100%;
+  background-color: $color_grey_light;
+}
+
+/* Carousel
+=================================================================== */
+
+.section-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.carousel-cell {
+  width: 45%;
+  height: 220px;
+  background-color: $color_grey_light;
+  cursor: pointer;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  position: relative;
+  h4 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 0.6em;
+    text-align: center;
+    width: 100%;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+/* Footer
+=================================================================== */
+
+footer {
+  margin-top: 1.3em;
+  color: $color_white;
+  background-color: $color_grey_dark;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  p {
+    margin: 0;
+  }
+}

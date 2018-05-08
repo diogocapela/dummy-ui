@@ -1,8 +1,41 @@
 {{> header}}
 {{> navbar}}
-<div class="container">
 
-    <h1>dummy-ui</h1>
+<div class="hero"></div>
+
+<div class="container-fluid">
+
+
+    <h1 class="section-title">Open Day '18</h1>
+
+    <div class="carousel">
+        {{#each open-days}}
+            <div class="carousel-cell">
+                <h4>{{title}}</h4>
+            </div>
+        {{/each}}
+    </div>
+
+    <h1 class="section-title">Graduate Program</h1>
+
+    <div class="carousel">
+        {{#each graduate-programs}}
+            <div class="carousel-cell">
+                <h4>{{title}}</h4>
+            </div>
+        {{/each}}
+    </div>
+
+    <h1 class="section-title">Meet Mindera Code & Culture</h1>
+
+    <div class="carousel">
+        {{#each code-and-culture}}
+            <div class="carousel-cell">
+                <h4>{{title}}</h4>
+            </div>
+        {{/each}}
+    </div>
 
 </div>
+
 {{> footer}}
