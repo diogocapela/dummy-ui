@@ -2,6 +2,10 @@
 
 Implementation of a dummy user interface using web technologies.
 
+**Live Demo:** [https://dummy-ui.herokuapp.com](https://dummy-ui.herokuapp.com)
+
+![screenshots](./public/img/screenshots.jpg)
+
 ## Setup
 
 ```
@@ -20,6 +24,16 @@ $ npm run dev
 # Build for production
 $ npm run build
 ```
+
+## Front-end Libraries
+
+List of all the 3rd-party front-end libraries and the respective versions used on this project.
+
+- **Bootstrap** `4.1.0` [getbootstrap.com](https://getbootstrap.com)
+- **Flickity** `2.1.1` [flickity.metafizzy.co](https://flickity.metafizzy.co)
+- **Font Awesome** `5.0.12` [fontawesome.com](https://fontawesome.com)
+- **jQuery** `3.3.1-slim` [jquery.com](https://jquery.com)
+- **Popper.js** `1.14.0` [popper.js.org](https://popper.js.org)
 
 ## License
 

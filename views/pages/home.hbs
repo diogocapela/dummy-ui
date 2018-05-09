@@ -5,14 +5,13 @@
 
 <div class="container-fluid">
 
-
     <h1 class="section-title">Open Day '18</h1>
 
     <div class="carousel">
         {{#each open-days}}
-            <div class="carousel-cell">
+            <a class="carousel-cell" href="/open-day/{{@key}}">
                 <h4>{{title}}</h4>
-            </div>
+            </a>
         {{/each}}
     </div>
 
@@ -20,9 +19,9 @@
 
     <div class="carousel">
         {{#each graduate-programs}}
-            <div class="carousel-cell">
+            <a class="carousel-cell">
                 <h4>{{title}}</h4>
-            </div>
+            </a>
         {{/each}}
     </div>
 
@@ -30,9 +29,9 @@
 
     <div class="carousel">
         {{#each code-and-culture}}
-            <div class="carousel-cell">
+            <a class="carousel-cell">
                 <h4>{{title}}</h4>
-            </div>
+            </a>
         {{/each}}
     </div>
 
